@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+
+<body>
+
+    <script>
+    if (confirm('Здравствуйте!'))
+    {
+        var admin;
+        var name;
+        while (true) {
+            name = prompt('Введите сюда ваше имя:');
+            if (name === null || name.trim() === '') {
+                continue;
+            }
+            admin = name;
+            alert("Ваше имя - " + admin)
+            break;
+        }
+    }
+    alert("Спасибо!")
+    </script>
+
+</body>
+
+</html>
